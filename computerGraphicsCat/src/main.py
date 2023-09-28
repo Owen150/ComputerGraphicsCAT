@@ -2,10 +2,10 @@ import tarfile
 import os
 
 # Specify the path to your tar.gz file
-dataset_path = "data/your_dataset.tar.gz"
+dataset_path = "C:/Users/Michael Owen/Downloads/amazon-massive-dataset-1.1_CAT1.tar.gz"
 
 # Specify the directory where you want to extract the files
-extraction_directory = "data/extracted_dataset"
+extraction_directory = "C:/Users/Michael Owen/PycharmProjects/computerGraphicsCat/data/extracted_dataset"
 
 # Create the extraction directory if it doesn't exist
 os.makedirs(extraction_directory, exist_ok=True)
